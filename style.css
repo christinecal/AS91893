@@ -276,7 +276,7 @@ h1{
         height: 100%;
         width: 100%;
         background-color: black;
-        opacity: 0.35;
+        opacity: 0.55;
         z-index: -1;
     }
     #home .home {
@@ -363,7 +363,7 @@ h1{
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        padding: 70px;
+        padding: 30px;
         border-radius: 25px;
         background-size: cover;
         margin: 10px 5%;
@@ -378,19 +378,20 @@ h1{
         top: 0;
         height: 100%;
         width: 100%;
-        background-image: linear-gradient(60deg, #c0854a 0%, #d6b066 40%);
-        opacity: 0.5;
+        background-image: linear-gradient(60deg, #bfbfbf 0%, #dbdad7 40%);
+        border: rgba(255, 255, 255, 0.6431372549) 8px solid;
+        opacity: 0.8;
         z-index: -1;
     }
     
     #chalets .chalets-item h2 {
         font-size: 2.5rem;
-        color: white;
+        color: rgb(0, 0, 0);
         margin-bottom: 10px;
         text-transform: uppercase;
     }
     #chalets .chalets-item p {
-        color: white;
+        color: rgb(0, 0, 0);
         text-align: left;
     }
     /* End chalets Section */
