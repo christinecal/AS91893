@@ -85,7 +85,7 @@ section{
     }
     p {
         color: black;
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         margin-top: 5px;
         line-height: 2.5rem;
         font-weight: 300;
@@ -404,7 +404,6 @@ section{
         color: inherit;
         font-size: inherit;
         margin: 10px 10px;
-        border: rgba(255, 255, 255, 0.6431372549) 4px solid;
         min-width: 150px;
         text-decoration: none;
         padding: 2em;
@@ -414,11 +413,9 @@ section{
         text-align: center;
         }
   
-    #labels {
+    #membership .labels {
         justify-content: center;
-        width: auto;
-        margin: auto;
-        font-size: 30px;
+        font-size: 25px;
     } 
     #membership .membership-header h1 {
         margin-bottom: 50px;
@@ -440,15 +437,17 @@ section{
         border-radius: 10px;
     }
     #membership .membership-info {
-        padding: 30px;
+        padding: 40px;
+        border-radius: 10px;
         flex-basis: 50%;
         height: 100%;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-        color: white;
+        border: rgba(255, 255, 255, 0.6431372549) 4px solid;
+        background-image: linear-gradient(60deg, #d2e2f5c0 0%, #b0b8c0db 100%);
+        color: rgb(0, 0, 0);
     }
     #membership .membership-info h1 {
         font-size: 4rem;
@@ -458,9 +457,14 @@ section{
         font-size: 1.8rem;
         font-weight: 500;
         margin-top: 10px;
+        justify-content: center;
+
     }
     #membership .membership-info p {
-        color: white;
+        color: rgb(0, 0, 0);
+        font-size: 18px;
+        justify-content: center;
+
     }
     #membership .membership-img {
         flex-basis: 50%;
@@ -488,13 +492,28 @@ section{
     
     /* Gallery Section */
     #gallery{
-        width: auto;
         text-align: center;
-        padding-top: 25px;
+        padding-top: 145px;
         justify-content: center;
         flex-direction: column;
+        background-color: #000000;
+        background-image: url(./images/mountain_view_1.jpg);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        z-index: 1; 
     }
-    
+    #gallery .gallery-info {
+        padding: 30px;
+        flex-basis: 50%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+        color: rgb(0, 0, 0);
+    }
+
     #img{
         text-align: center;
         justify-content: center;
@@ -516,6 +535,7 @@ section{
         position: relative;
         overflow: hidden;
         flex-direction: column;
+        
     }
     
     #gallery h2{
