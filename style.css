@@ -3,7 +3,7 @@
 /*css reset*/
 
 #home{
-    background-color: #2991a1;
+    background-color: #000000;
     background-image: url(./images/mountain_view_1.jpg);
     background-size: cover;
     background-position: top center;
@@ -55,15 +55,6 @@ section{
 	justify-content: center;
 }
 
-h1{
-    font-size: 3rem;
-    text-transform: uppercase;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    }
 
     /*! one-page-website-html-css-project/style.css | MIT License | github.com/ShaifArfan/style.css */
      
@@ -110,7 +101,8 @@ h1{
         text-align: center;
     }
     .section-title span {
-        color: crimson;
+     background-color: rgb(198, 255, 254);
+
     }
     
     .cta {
@@ -136,7 +128,7 @@ h1{
         color: white;
     }
     .brand h1 span {
-        color: crimson;
+        background-color: rgb(198, 255, 254);
     }
     
     /* Header section */
@@ -310,7 +302,7 @@ h1{
         left: 0;
         height: 100%;
         width: 0;
-        background-color: crimson;
+        background-color: rgb(198, 255, 254);
         animation: text_reveal_box 1s ease;
         animation-delay: 0.5s;
     }
@@ -536,6 +528,7 @@ h1{
         width: 100%;
     }
     #contact .contact-item {
+        border: 3px solid rgb(75, 73, 73);
         width: 80%;
         padding: 20px;
         text-align: center;
@@ -546,6 +539,7 @@ h1{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        background-color: rgb(227, 255, 255);
         box-shadow: 0px 0px 18px 0 #0000002c;
         transition: 0.3s ease box-shadow;
     }
@@ -576,32 +570,16 @@ h1{
     #footer .footer {
         min-height: 200px;
         flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
     #footer h2 {
         color: white;
         font-weight: 500;
         font-size: 1.8rem;
         letter-spacing: 0.1rem;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    #footer .social-icon {
-        display: flex;
-        margin-bottom: 30px;
-    }
-    #footer .social-item {
-        height: 50px;
-        width: 50px;
-        margin: 0 5px;
-    }
-    #footer .social-item img {
-        filter: grayscale(1);
-        transition: 0.3s ease filter;
-    }
-    #footer .social-item:hover img {
-        filter: grayscale(0);
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
     #footer p {
         color: white;
@@ -836,24 +814,7 @@ h1{
         justify-content: center;
     }
     
-.home-block {
-    margin-top: 15em;
-    background-color: rgba(255, 255, 255, 0.6431372549);
-    color: #000000;
-    text-align: center;
-  }
-  .home-block a {
-    display: inline-block;
-    color: inherit;
-    font-size: inherit;
-    margin: 30px 5px;
-    border: rgba(255, 255, 255, 0.6431372549) 2px solid;
-    min-width: 150px;
-    text-decoration: none;
-    padding: 1em;
-  }
 
-    
     
     
     
