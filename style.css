@@ -80,7 +80,7 @@ section{
     }
     img {
         height: 100%;
-        width: 100%;
+        width: auto;
         object-fit: cover;
     }
     p {
@@ -414,9 +414,11 @@ section{
         text-align: center;
         }
   
-     .joinclubbox {
-         border-radius: 4px;
-         margin-bottom: 20px;
+    #labels {
+        justify-content: center;
+        width: auto;
+        margin: auto;
+        font-size: 30px;
     } 
     #membership .membership-header h1 {
         margin-bottom: 50px;
@@ -486,34 +488,42 @@ section{
     
     /* Gallery Section */
     #gallery{
-        width: 80%;
-        margin: auto;
+        width: auto;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 25px;
+        justify-content: center;
+        flex-direction: column;
     }
     
     #img{
-        width: 80%;
+        text-align: center;
+        justify-content: center;
+        width: auto;
+        margin: auto;
         font-weight: 600;
         text-align: center;
         padding-top: 50px;
+        flex-direction: column;
     }
     
     #gallerys-col{
+        justify-content: center;
+        width: auto;
+        margin: auto;
         flex-basis: 32%;
         border-radius: 10px;
         margin-bottom: 10px;
         position: relative;
         overflow: hidden;
-    }
-    
-    #gallery h1{
-        font-size: 70px;
-        color: #009688;
+        flex-direction: column;
     }
     
     #gallery h2{
+        justify-content: center;
+        width: auto;
+        margin: auto;
         font-size: 30px;
+        flex-direction: column;
     }
     
     /* End gallery Section */
@@ -569,29 +579,7 @@ section{
     }
     /*End contact Section */
     
-    /* Footer */
-    #footer {
-        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    }
-    #footer .footer {
-        min-height: 200px;
-        flex-direction: column;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    #footer h2 {
-        color: white;
-        font-weight: 500;
-        font-size: 1.8rem;
-        letter-spacing: 0.1rem;
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
-    #footer p {
-        color: white;
-        font-size: 1.3rem;
-    }
-    /* End Footer */
+   
     
     /* Keyframes */
     @keyframes hamburger_puls {
