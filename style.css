@@ -1,16 +1,4 @@
-*{
-    margin: 0px;
-    padding: 0;
-}
 
-body{
-    font-size: 100%;
-    font-family: sans-serif;
-}
-
-div, section, span, ul, li, a, header{
-    box-sizing: border-box;
-}
 
 /*css reset*/
 
@@ -23,21 +11,6 @@ div, section, span, ul, li, a, header{
     z-index: 1; 
 }
 
-#chalets{
-     background-color: #6563ed;
-}
-
-#membership{
-     background-color: #B52B65;
-}
-
-#gallery{
-     background-color: #3C2C3E;
-}
-
-#contact{
-     background-color: #B52B65;
-}
 
 header{
     width: 100%;
@@ -355,6 +328,7 @@ h1{
     
     /* chalets Section */
     #chalets .chalets {
+        background-image: url(images/maunga_club_cabin.jpg);
         flex-direction: column;
         text-align: center;
         max-width: 1500px;
@@ -362,25 +336,35 @@ h1{
         padding: 100px 0;
     }
     #chalets .chalets-top {
-        max-width: 500px;
-        margin: 0 auto;
-    }
+        display: inline-block;
+        color: inherit;
+        font-size: inherit;
+        margin: 10px 10px;
+        border: rgba(255, 255, 255, 0.6431372549) 4px solid;
+        min-width: 150px;
+        text-decoration: none;
+        padding: 2em;
+        margin-top: 5em;
+        background-color: rgba(255, 255, 255, 0.6431372549);
+        color: #000000;
+        text-align: center;
+      }
+    
     #chalets .chalets-bottom {
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        margin-top: 50px;
+        margin-top: 20px;
     }
     #chalets .chalets-item {
-        flex-basis: 80%;
+        flex-basis: 70%;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
-        padding: 30px;
-        border-radius: 10px;
-        background-image: url(./img/img-1.png);
+        padding: 70px;
+        border-radius: 25px;
         background-size: cover;
         margin: 10px 5%;
         position: relative;
@@ -394,17 +378,13 @@ h1{
         top: 0;
         height: 100%;
         width: 100%;
-        background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-        opacity: 0.9;
+        background-image: linear-gradient(60deg, #c0854a 0%, #d6b066 40%);
+        opacity: 0.5;
         z-index: -1;
     }
-    #chalets .chalets-bottom .icon {
-        height: 80px;
-        width: 80px;
-        margin-bottom: 20px;
-    }
+    
     #chalets .chalets-item h2 {
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: white;
         margin-bottom: 10px;
         text-transform: uppercase;
@@ -848,11 +828,23 @@ h1{
         justify-content: center;
     }
     
+.home-block {
+    margin-top: 15em;
+    background-color: rgba(255, 255, 255, 0.6431372549);
+    color: #000000;
+    text-align: center;
+  }
+  .home-block a {
+    display: inline-block;
+    color: inherit;
+    font-size: inherit;
+    margin: 30px 5px;
+    border: rgba(255, 255, 255, 0.6431372549) 2px solid;
+    min-width: 150px;
+    text-decoration: none;
+    padding: 1em;
+  }
 
-
-    
-    
-    
     
     
     

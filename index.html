@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang=en>
-  
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Maunga Club (renting cabins and membership)">
     <meta name="keywords" content="Maunga Club, renting, cabins, snow, ski, membership, New Zealand">
     <meta name="author" content="Christine Calantog">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">         
-
 <head>
     <title>Maunga Club</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="style/normalize.css" type="text/css">
-     <!-- AOS Library -->
+    <!-- AOS Library -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Smooth Scrolling -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-    <script src="script/scroll.js"></script>
-  <!-- Font -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+   <script src="script/scroll.js"></script>
+    <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap" rel="stylesheet">
-</head>
-
+    <!--JQuery gallery-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  </head>
 <body>
     <script>
       AOS.init();
     </script>
-
   <!-- Start Header -->
   <section id="header">
     <div class="header container">
@@ -45,7 +44,7 @@
           </div>
           <ul>
             <li><a href="#home" data-after="Home">Home</a></li>
-            <li><a href="#chalets" data-after="Chalets">Chalets</a></li>
+            <li><a href="#chalets" data-after="chalets">Chalets</a></li>
             <li><a href="#membership" data-after="Membership">Membership</a></li>
             <li><a href="#gallery" data-after="Gallery">Gallery</a></li>
             <li><a href="#contact" data-after="Contact">Contact</a></li>
@@ -57,10 +56,132 @@
   <!-- End Header -->
 
     <section id="home"><h1>Welcome to Maunga Club</h1></section>
-    <section id="chalets"><h1>This is chalets</h1></section>
-    <section id="membership"><h1>This is membership</h1></section>
-    <section id="gallery"><h1>This is gallery</h1></section>
-    <section id="contact"><h1>This is contact</h1></section>
+
+<!-- START Chalets Section -->
+<section id="chalets">
+  <div class="chalets container">
+    <div class="chalets-top">
+      <p> Maunga Club members have exclusive access to our chalets which can accomodate 6 to 40 people per chalet.<p>
+      <p> Make bookings from Friday to Sunday to maximise your experience - skiing  in awe at the beautiful mountain scenery.<p>
+      <p> The mountain features an expanse of 550 hectares of skiing or snowboarding area, making it the longest
+          ski and snowboard season in New Zealand. </p>
+    </div>
+    <div class="chalets-bottom">
+      <div class="chalets-item">
+        <h2>Kākāpo</h2>
+        <h2>Chalet #1</h2>
+        <p>• Largest of the chalets<p>
+        <p>• Large kitchen, dining and living area<p>
+        <p> • Great amenities <p>
+        <p> <p>
+        <p> Maximum adults: 10<p>
+        <p> Maximum children: 30<p>
+      </div>
+      <div class="chalets-item">
+        <h2>Pūkeko</h2>
+        <h2>Chalet #2</h2>
+        <p>• Great for large groups or families wanting a chalet to themselves<p>
+        <p>• Limits on adult and child number to ensure a comfortable stay
+        <p> <p>
+        <p> Maximum adults: 6<p>
+        <p> Maximum children: 15<p>
+      </div>
+      <div class="chalets-item">
+        <h2>Kererū</h2>
+        <h2>Chalet #3</h2>
+        <p>• Great option for a family<p>
+        <p>• Perfect for families with 2-4 children<p>
+        <p> • 2 bedrooms <p>
+        <p> • Separate living area<p>
+        <p> <p>
+        <p> Maximum adults: 2<p>
+        <p> Maximum children: 4<p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END Chalets Section -->
+
+ <!-- START membership Section -->
+ <section id="membership">
+  <div class="membership container">
+    <div class="membership-header">
+      <h1 class="section-title">Recent <span>membership</span></h1>
+    </div>
+    <div class="all-membership">
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Project 1</h1>
+          <h2>Coding is Love</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad, iusto cupiditate voluptatum impedit unde
+            rem ipsa distinctio illum quae mollitia ut, accusantium eius odio ducimus illo neque atque libero non sunt
+            harum? Ipsum repellat animi, fugit architecto voluptatum odit et!</p>
+        </div>
+        </div>
+      </section>
+</section>
+ <!-- END membership Section -->
+
+<!-- START gallery Section -->
+<section id="gallery">
+  <div class="gallery container">
+    <div class="col-left">
+      <div class="gallery-img">
+        <img src="./img/img-2.png" alt="img">
+      </div>
+    </div>
+    <div class="col-right">
+      <h1 class="section-title">gallery <span>me</span></h1>
+      <h2>Front End Developer</h2>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores, velit alias eius non illum beatae atque
+        repellat ratione qui veritatis repudiandae adipisci maiores. At inventore necessitatibus deserunt
+        exercitationem cumque earum omnis ipsum rem accusantium quis, quas quia, accusamus provident suscipit magni!
+        Expedita sint ad dolore, commodi labore nihil velit earum ducimus nulla quae nostrum fugit aut, deserunt
+        reprehenderit libero enim!</p>
+      <a href="#" class="cta">Download Resume</a>
+    </div>
+  </div>
+</section>
+<!-- END gallery Section -->
+
+<!-- START Contact Section -->
+<section id="contact">
+  <div class="contact container">
+    <div>
+      <h1 class="section-title">Contact info</h1>
+    </div>
+    <div class="contact-items">
+      <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+        <div class="contact-info">
+          <h1>Phone</h1>
+          <h2>+1 234 123 1234</h2>
+          <h2>+1 234 123 1234</h2>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+        <div class="contact-info">
+          <h1>Email</h1>
+          <h2>maungaclub@maungaclub.maungaclub</h2>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+        <div class="contact-info">
+          <h1>Address</h1>
+          <h2>Maunga Club, New Zealand</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- END Contact Section -->
+
+  </section>
+    <footer>
+      <h2>Maunga Club 2022 - Website by Christine Calantog</h2>
+    </footer>
 
 </body>
 
